@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.PrintStream;
 import java.util.ArrayList;
 
+import main.Main;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Test;

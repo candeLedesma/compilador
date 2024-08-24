@@ -11,4 +11,15 @@ public class Token {
         this.numeroLinea = numeroLinea;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public String getLexema() {
+        return lexema;
+    }
+
+    public String getLineNumber() {
+        return String.valueOf(numeroLinea);
+    }
 }
