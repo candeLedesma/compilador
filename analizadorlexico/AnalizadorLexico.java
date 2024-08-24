@@ -99,7 +99,7 @@ public class AnalizadorLexico {
     }
 
     private Token esEOF() {
-        return null;
+        return new Token("EOF", lexema, sourceManager.getLineNumber());
     }
 
     private Token esPuntuacion() {
